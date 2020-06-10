@@ -2,6 +2,7 @@
   "name": "@firstandthird/can-autoplay",
   "version": "1.0.0",
   "description": "Detects autoplay capabilities being Safe for SSR",
+  "type": "module",
   "main": "index.js",
   "module": "dist/can-autoplay.js",
   "keywords": [
