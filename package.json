@@ -2,8 +2,7 @@
   "name": "@firstandthird/can-autoplay",
   "version": "1.1.0",
   "description": "Detects autoplay capabilities being Safe for SSR",
-  "type": "module",
-  "main": "index.js",
+  "main": "dist/can-autoplay.cjs.js",
   "module": "dist/can-autoplay.js",
   "keywords": [
     "browser",
@@ -40,6 +39,11 @@
     "extends": "firstandthird"
   },
   "scriptkit": {
+    "scripts": {
+      "formats": {
+        "cjs": true
+      }
+    },
     "files": {
       "dist/can-autoplay.js": "index.js"
     },
