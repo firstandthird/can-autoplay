@@ -1,5 +1,7 @@
-node_modules/
+node_modules
+npm-debug.log
+.idea
+test/*.dist.*
+dist
+*.map
 .DS_Store
-
-# Ignore JetBrains Editor
-.idea/
